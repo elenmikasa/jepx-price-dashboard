@@ -1,0 +1,21 @@
+# Python 仮想環境
+.venv/
+
+# データベース・データファイル
+*.duckdb
+*.db
+data/
+*.csv
+
+# ログ
+logs/
+*.log
+
+# dbt 関連の生成物
+jepx_dbt/target/
+jepx_dbt/dbt_packages/
+
+# エディタ・OS固有ファイル
+.vscode/
+.DS_Store
+__pycache__/
